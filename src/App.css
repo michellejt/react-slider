@@ -16,7 +16,7 @@
   position: absolute;
   top:50%;
   right:32px;
-  font-size: 33em;
+  font-size: 3em;
   color: #000;
   z-index: 10;
   cursor: pointer;
@@ -27,7 +27,7 @@
   position: absolute;
   top:50%;
   left:32px;
-  font-size: 33em;
+  font-size: 3em;
   color: #000;
   z-index: 10;
   cursor: pointer;
@@ -39,7 +39,7 @@
   transition-duration: 1s ease;
 }
 
-.slide-active {
+.slide.active {
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
